@@ -19,6 +19,6 @@ if menu == "Beranda":
     home.app()
 elif menu == "Input Data":
     input_data.app()
-
+<<<<<<< HEAD
 
 
