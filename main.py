@@ -1,5 +1,5 @@
 import streamlit as st
-import home, input_data, Lainnya, coba
+import home, input_data
 
 # Sidebar menu
 st.sidebar.image("menu.png",width=700)
@@ -19,7 +19,6 @@ if menu == "Beranda":
     home.app()
 elif menu == "Input Data":
     input_data.app()
-#elif menu == "Lainnya":
- #   Lainnya.app()
+
 
 
